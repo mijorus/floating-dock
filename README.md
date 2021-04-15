@@ -12,3 +12,6 @@ Forked of the fork
 Removes those ugly appIndicator and notification badges (in a not so elegant but effective) way.
 
 Enjoy
+
+
+![Dash to dock with badge](./media/example1.png) ===> ![Dash to Dock w/out badge](./media/example2.png)
