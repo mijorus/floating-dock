@@ -42,8 +42,8 @@ var AppIconIndicator = class DashToDock_AppIconIndicator {
         this._indicators = [];
 
         // Unity indicators always enabled for now
-        let unityIndicator = new UnityIndicator(source);
-        this._indicators.push(unityIndicator);
+        // let unityIndicator = new UnityIndicator(source);
+        // this._indicators.push(unityIndicator);
 
         // Choose the style for the running indicators
         let runningIndicator = null;
@@ -336,10 +336,10 @@ var RunningIndicatorDots = class DashToDock_RunningIndicatorDots extends Running
         if (!Docking.DockManager.settings.get_boolean('apply-custom-theme') &&
             Docking.DockManager.settings.get_boolean('unity-backlit-items')) {
             this._source._iconContainer.get_children()[1].set_style(this._glossyBackgroundStyle);
-            if (this._isRunning)
-                this._enableBacklight();
-            else
-                this._disableBacklight();
+            // if (this._isRunning)
+                // this._enableBacklight();
+           // else
+             //   this._disableBacklight();
         } else {
             this._disableBacklight();
             this._source._iconContainer.get_children()[1].set_style(null);
