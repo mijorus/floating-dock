@@ -42,8 +42,8 @@ var AppIconIndicator = class DashToDock_AppIconIndicator {
         this._indicators = [];
 
         // Unity indicators always enabled for now
-        // let unityIndicator = new UnityIndicator(source);
-        // this._indicators.push(unityIndicator);
+        let unityIndicator = new UnityIndicator(source);
+        this._indicators.push(unityIndicator);
 
         // Choose the style for the running indicators
         let runningIndicator = null;
