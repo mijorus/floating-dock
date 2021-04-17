@@ -9,9 +9,9 @@ Forked of the fork
 
 # Main and only feature
 
-Removes those ugly appIndicator and notification badges (in a not so elegant but effective) way.
+Removes those ugly borders in notification badges.
 
 Enjoy
 
 
-![Dash to dock with badge](./media/example1.png) ===> ![Dash to Dock w/out badge](./media/example2.png)
+![Dash to dock with badge](./media/example1.png) ===> ![Dash to Dock w/out badge](./media/example3.png)
